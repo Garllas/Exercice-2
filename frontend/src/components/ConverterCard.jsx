@@ -53,7 +53,7 @@ export default function ConverterCard({ activeCategory, onConversionSuccess, pre
         setError(data.error || 'Erreur lors de la conversion');
       }
     } catch (err) {
-      setError('Erreur de connexion au serveur.');
+      setError('Impossible de se connecter au serveur');
     }
   };
 
